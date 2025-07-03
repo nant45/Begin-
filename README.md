@@ -8,3 +8,5 @@
     else:
         print(f"Congratulations! You guessed it in {attempts} attempts.")
         break# Begin-
+guess = int(guess)
+    attempts += 1
