@@ -10,3 +10,5 @@
         break# Begin-
 guess = int(guess)
     attempts += 1
+ if guess < secret_number:
+        print("Too low!")
