@@ -15,3 +15,7 @@ guess = int(guess)
     else:
         print(f"Congratulations! You guessed it in {attempts} attempts.")
         break
+if guess < secret_number:
+    print("Too low!")
+elif guess > secret_number:
+    print("Too high!")
